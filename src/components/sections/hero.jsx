@@ -16,8 +16,8 @@ const Hero = () => {
                     <div className="col-lg-8">
                         {/* <!-- START HERO DESIGN AREA --> */}
                         <div className="hero-content wow fadeInUp delay-0-2s">
-                            <h1>I am product designer, indie maker, and digital nomad living in internet.</h1>
-                            <h2>Hi, i'm Stefeny i'm a freelance product designer with 12+ years of experience focusing on app interfaces. </h2>
+                            <h1>I'm UI/UX designer and front end developer.</h1>
+                            <h2>Hi, I'm <b>Serkalem Delelegn</b>. I'm a freelance UI/UX designer with 3+ years of experience focusing on app interfaces. </h2>
                             <div className="hero-btns">
                                 <Link to="/contact" className="theme-btn">Download CV <i><RiDownloadLine size={16}/></i></Link>
                             </div>

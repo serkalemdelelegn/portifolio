@@ -9,9 +9,9 @@ const ContactForm = () => {
                         {/* <!-- START CONTACT FORM DESIGN AREA --> */}
                         <div className="col-lg-12">
                             <ul className="extra-skills wow fadeInUp delay-0-2s pb-30">
-                                <li><i><RiBuilding2Line size={16} /></i>Office:Jurain,Dhaka Bangladesh</li>
-                                <li><i><RiHeadphoneLine size={16} /></i>Number:+1234321321</li>
-                                <li><i><RiMailOpenLine size={16} /></i>Email:websitename@mail.com</li>
+                                <li><i><RiBuilding2Line size={16} /></i>Addis Ababa, Ethiopia</li>
+                                <li><i><RiHeadphoneLine size={16} /></i>Number:+251962042225</li>
+                                <li><i><RiMailOpenLine size={16} /></i>Email:serkalemhailu16@gmail.com</li>
                             </ul>
                             <div className="contact-form contact-form-area wow fadeInUp delay-0-4s">
                                 <form id="contactForm" className="contactForm" name="contactForm" action="assets/php/form-process.php" method="post">
