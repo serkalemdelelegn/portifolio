@@ -8,7 +8,7 @@ const Contact = () => {
         <>
             <PageHeading
                 heading={"Say Hello"}
-                description={"Fill out the form below to get in touch with me. I'm always excited to hear about new opportunities and I'll do my best to respond to your inquiry within 24 hours."}
+                description={<>Feel free to reach out by filling out the form below!<br></br> I'm always eager to connect and explore new opportunities. <br></br>I'll do my best to respond within 24 hours.</>}
             />
             <ContactForm />
             <ScrollRestoration />

@@ -7,10 +7,10 @@ import CallToAction from '../components/sections/callToAction'
 const Projects = () => {
   return (
     <>
-      <PageHeading
-        heading={"Projects"}
-        description={"Check out my portfolio of top-notch projects that I've delivered to both clients and the community. I'm more than happy to answer any questions you may have about how we can collaborate to achieve your objectives. Feel free to get in touch with me."}
-      />
+        <PageHeading
+          heading={"Projects"}
+          description={<><strong>Welcome to my projects showcase!</strong> <br></br>As a passionate UI/UX Designer and Front-End Developer I bring ideas to life through clean user-friendly and responsive designs.<br></br> Below you'll find a collection of my works ranging from personal projects to client-based designs. Each project reflects my dedication to crafting seamless digital experiences with a focus on usability aesthetics and performance.</>}
+        />
       <Portfolio />
       <CallToAction/>
       <ScrollRestoration/>

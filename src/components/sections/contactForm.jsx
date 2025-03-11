@@ -1,4 +1,5 @@
 import React from 'react'
+import emailjs from "@emailjs/browser";
 import { RiBuilding2Line, RiHeadphoneLine, RiMailLine, RiMailOpenLine } from '@remixicon/react'
 const ContactForm = () => {
     return (
@@ -19,7 +20,7 @@ const ContactForm = () => {
                                         <div className="col-md-6">
                                             <div className="form-group">
                                                 <label htmlFor="name">Full Name</label>
-                                                <input type="text" id="name" name="name" className="form-control" defaultValue="" placeholder="Steve Milner" required="" data-error="Please enter your Name" />
+                                                <input type="text" id="name" name="name" className="form-control" defaultValue="" placeholder="Your name" required="" data-error="Please enter your Name" />
                                                 <label htmlFor="name" className="for-icon"><i className="far fa-user"></i></label>
                                                 <div className="help-block with-errors"></div>
                                             </div>
@@ -27,7 +28,7 @@ const ContactForm = () => {
                                         <div className="col-md-6">
                                             <div className="form-group">
                                                 <label htmlFor="email">Email Address</label>
-                                                <input type="email" id="email" name="email" className="form-control" defaultValue="" placeholder="hello@websitename.com" required="" data-error="Please enter your Email" />
+                                                <input type="email" id="email" name="email" className="form-control" defaultValue="" placeholder="hello@email.com" required="" data-error="Please enter your Email" />
                                                 <label htmlFor="email" className="for-icon"><i className="far fa-envelope"></i></label>
                                                 <div className="help-block with-errors"></div>
                                             </div>
